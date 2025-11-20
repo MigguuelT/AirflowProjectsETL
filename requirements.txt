@@ -1,0 +1,7 @@
+# Dependências de Produção (já instaladas, mas bom ter para referência)
+# apache-airflow==2.9.3 # Use a versão exata que aparece no seu ambiente
+
+# Dependências de Teste (Pytest e Plugins)
+pytest
+pytest-mock        # Essencial para simular Conexões, Hooks e Operadores
+pytest-helpers-namespace # Útil para adicionar helpers/fixtures customizados

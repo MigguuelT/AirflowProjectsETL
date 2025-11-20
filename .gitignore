@@ -1,0 +1,23 @@
+# Arquivos de log e cache do Python
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Arquivos de log e cache
+*.log
+__pycache__/
+
+# Configurações de IDE (PyCharm)
+.idea/
+.pytest_cache/
+
+# Diretórios de Dados e Output (CRUCIAL para seu projeto Airflow/ML)
+# Ajuste estes caminhos se eles não estiverem na raiz
+data-lake/
+data/projeto_etl/
+*.log
+
+# Arquivo de senha do sistema
+standalone_admin_password.txt
+data/projeto_etl/Fluxo ETL camadas silver e gold.txt
